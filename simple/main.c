@@ -7,10 +7,12 @@ int main(int argc, char *argv[]) {
     b = 2;
     c = a + b;
 
-
     printf("%d + %d = %d\n", a, b, c);
-    for (i = 0; i < 10; i++) {
-        printf("%d\n", i);
+
+    if (c % 2 == 0) {
+        for (i = 0; i < 10; i++) {
+            printf("%d\n", i);
+        }
     }
 
     return 0;
