@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main(int argc, char *argv[])
+{
+    int a, b, c, i;
+
+    a = 1;
+    b = 2;
+    c = add(a, b);
+
+    printf("%d + %d = %d\n", a, b, c);
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
